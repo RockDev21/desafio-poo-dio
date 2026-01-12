@@ -44,23 +44,27 @@ public class Main {
         devDanny.inscreverbootcamp(bootcamp);
         System.out.println("Conteúdos Incscirtos Danny" + devDanny.getConteudosInscritos());
         devDanny.progredir();
+        devDanny.progredir();
         System.out.println("-");
         System.out.println("Conteúdos Incscirtos Danny" + devDanny.getConteudosInscritos());
         System.out.println("Conteúdos Concluídos Danny" + devDanny.getConteudosConcluidos());
+        System.out.println("XP:" +devDanny.calcularTotalXp());
 
 
         System.out.println("-------");
+
+
         Dev devCamila = new Dev();
         devCamila.setNome("Camila");
         devCamila.inscreverbootcamp(bootcamp);
         System.out.println("Conteúdos Incscirtos Camila" + devCamila.getConteudosInscritos());
         devCamila.progredir();
+        devCamila.progredir();
+        devCamila.progredir();
         System.out.println("-");
         System.out.println("Conteúdos Incscirtos Camila" + devCamila.getConteudosInscritos());
         System.out.println("Conteúdos Concluídos Camila" + devCamila.getConteudosConcluidos());
-
-
-
+        System.out.println("XP:" +devCamila.calcularTotalXp());
 
     }
 }
