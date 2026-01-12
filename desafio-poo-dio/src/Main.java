@@ -18,10 +18,13 @@ public class Main {
         curso2.setDescricao("descrição curso js");
         curso2.setCargahoraria(4);
 
-        Conteudo conteudo = new Curso();
+
+     /**   Conteudo conteudo = new Curso();
         Conteudo conteudo1 = new Mentoria();
 
         List<String> palavras = new ArrayList<>();
+**/
+
 
         Mentoria mentoria = new Mentoria();
         mentoria.setTiutlo("mentoria de java");
