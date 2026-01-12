@@ -23,7 +23,7 @@ public class Curso extends Conteudo { //Encapsulamento
     @Override
     public String toString() {
         return "Curso{" +
-                "titulo='" + getTitulo() + '\'' +
+                "titulo='" + getTiutlo() + '\'' +
                 ", descricao='" + getDescricao() + '\'' +
                 ", cargahoraria=" + cargahoraria +
                 '}';
